@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React from 'react';
-import Clock from './components/Clock';
+import Formulario from './Formulario';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Clock />
+    <div>
+      <h1>Formulario de registro</h1>
+      <Formulario />
     </div>
   );
-}
+};
 
 export default App;
-
-
-
-
-
-
-      
-
 
 
 
